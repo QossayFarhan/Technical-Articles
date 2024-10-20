@@ -1,7 +1,1 @@
-# Context: Moving to a Production Environment
 
-We’ve been working on a microservice-based, multi-container web app for a few months now. It’s set up with a bunch of services that all talk to each other inside a Kubernetes (K8s) cluster. So far, we've been using a managed vanilla Kubernetes cluster on IBM Cloud to deploy and test everything, which has been great for development.
-
-I’ve been handling all the deployment stuff—getting the app up and running on our test environment, tweaking things, and managing each deployment. Now that our product is more polished and ready for the real world, it’s time to move to a stable production environment.
-
-The plan is to take everything we’ve built and transition it over to a production-grade OpenShift cluster on IBM Cloud. This will give us the reliability and scalability we need for handling actual users and traffic.
